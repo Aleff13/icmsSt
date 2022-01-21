@@ -8,8 +8,13 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6AF4A1"
     },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -17,13 +22,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.marteresler.icms",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#6AF4A1"
+      },
+      "package": "com.aleff.resler.icmsSt",
+      "versionCode":1
     },
     "web": {
       "favicon": "./assets/favicon.png"
